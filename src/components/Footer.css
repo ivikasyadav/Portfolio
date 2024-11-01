@@ -1,0 +1,35 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer.light {
+  background-color: white;
+  color: black;
+}
+
+.footer.dark {
+  background-color: black;
+  color: white;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 24px; 
+  height: 24px;                                    
+  margin: 0 10px;                                  
+  fill: currentColor;                              
+  transition: transform 0.3s;                      
+}
+
+.social-icon:hover {
+  transform: scale(1.1);                           
+}
+current text color */
+.social-media a {
+  color: inherit;                                  
+  text-decoration: none;
+}
